@@ -16,6 +16,7 @@ h1 {
   font-weight: 600;
   font-size: var(--text-xl);
   line-height: 110%;
+  margin: 0;
 }
 
 h2 {
@@ -32,9 +33,24 @@ h3 {
   line-height: 150%;
 }
 
+.body-1 {
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  font-size: var(--text-regular);
+  line-height: 150%;
+}
+
 p {
   font-family: var(--font-roboto);
   font-weight: 300;
   font-size: var(--text-s);
   line-height: 160%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  border-style: none;
 }

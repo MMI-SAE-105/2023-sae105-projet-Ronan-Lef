@@ -1,3 +1,31 @@
 footer {
-    background-color: var(--primary);
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 20px;
+  margin-top: auto;
 }
+
+.footer-liens ul,
+.credits ul {
+  font-family: var(--font-roboto-mono);
+  font-size: var(--text-s-uppercase);
+  font-weight: 300;
+  line-height: 160%;
+  text-transform: uppercase;
+}
+
+.footer-liens p,
+.credits p {
+  margin-bottom: 10px;
+  font-family: var(--font-roboto-condensed);
+  font-size: var(--text-xs);
+  font-weight: 300;
+  line-height: 160%;
+  text-transform: none;
+}
+
+footer a {
+  color: var(--white);
+  text-decoration: none;
+}
+

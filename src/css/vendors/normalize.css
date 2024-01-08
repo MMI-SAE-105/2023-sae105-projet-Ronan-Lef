@@ -1,0 +1,40 @@
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-family: var(--font-teko);
+  font-weight: 600;
+  font-size: var(--text-xl);
+  line-height: 110%;
+}
+
+h2 {
+  font-family: var(--font-teko);
+  font-weight: 500;
+  font-size: var(--text-l);
+  line-height: 110%;
+}
+
+h3 {
+  font-family: var(--font-teko);
+  font-weight: 400;
+  font-size: var(--text-m);
+  line-height: 150%;
+}
+
+p {
+  font-family: var(--font-roboto);
+  font-weight: 300;
+  font-size: var(--text-s);
+  line-height: 160%;
+}

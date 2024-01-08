@@ -1,0 +1,31 @@
+.titre_page {
+  text-align: center;
+  padding: 20px;
+  flex-shrink: 0;
+}
+
+.article-intro-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.article-intro-card img {
+  align-self: center;
+}
+
+.article-intro-card ul,
+.article-intro-card p {
+  font-family: var(--font-roboto-condensed);
+  font-size: var(--text-xs);
+  font-weight: 300;
+  line-height: 160%;
+  text-align: left;
+  background-color: var(--secondary);
+  margin: 20px;
+  margin-top: 0;
+}
+
+.article {
+  margin: 20px;
+  text-align: start;
+}

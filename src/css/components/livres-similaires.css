@@ -1,0 +1,53 @@
+.frise-livres {
+  gap: 16px;
+  padding: 16px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.livre {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--primary);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  width: 200px;
+  margin-right: 20px;
+}
+
+.livre img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.livre:hover {
+  transform: scale(1.06);
+}
+
+.date-livre,
+.titre-livre,
+.auteur-livre {
+  font-family: var(--font-teko);
+  padding: 8px;
+  text-align: center;
+}
+
+.date-livre {
+  font-weight: 500;
+  font-size: var(--text-l);
+  line-height: 110%;
+  color: var(--white);
+  background-color: var(--primary);
+}
+
+.titre-livre,
+.auteur-livre {
+  font-weight: 500;
+  font-size: var(--text-l);
+  line-height: 110%;
+  background-color: var(--secondary);
+}

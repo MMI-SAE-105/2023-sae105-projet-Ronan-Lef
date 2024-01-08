@@ -1,4 +1,26 @@
 .menu {
-    background-color: var(--primary);
-    
+  background-color: var(--primary);
+  color: var(--white);
+  list-style-type: none;
+  padding: 20px;
+}
+
+.menu a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.btn-fermer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.langues {
+     display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
 }

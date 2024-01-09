@@ -21,13 +21,15 @@
 .article-card img {
   position: sticky;
   top: 0;
-  max-height: 100%; /* Ajuste selon tes besoins */
+  max-height: 100%;
   object-fit: cover;
 }
 
 .article-card a {
+  color: var(--black);
   display: flex;
   flex-direction: column;
   overflow: hidden;
   margin: 20px;
+  text-decoration: none;
 }

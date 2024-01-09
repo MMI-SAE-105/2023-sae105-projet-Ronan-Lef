@@ -1,0 +1,54 @@
+.page-introduction {
+    text-align: center;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.form-champ {
+    margin: 10px;
+}
+
+label, input {
+    width : 100%;
+    box-sizing: border-box;
+}
+
+form {
+    width: 334px;
+    height: 400px;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: var(--secondary);
+    align-items: center;
+}
+
+label {
+  display: flex;
+  margin-bottom: 8px;
+  font-family: var(--font-roboto-mono);
+  font-size: var(--text-s-uppercase);
+  font-weight: bold;
+  line-height: 160%;
+  text-transform: uppercase;
+  margin-left: -40px;
+  
+}
+
+input {
+  padding: 8px;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  font-size: var(--text-s);
+  line-height: 100%;
+}
+
+
+.envoyer-bouton {
+  margin: 0 auto;
+  cursor: pointer;
+}

@@ -8,8 +8,11 @@
 .menu a {
   color: var(--white);
   text-decoration: none;
+  line-height: 120%;
+}
+
+.menu-nav ul li a {
   margin: -40px;
-  line-height: 140%;
 }
 
 .btn-fermer {

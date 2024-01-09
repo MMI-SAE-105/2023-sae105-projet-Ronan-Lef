@@ -45,7 +45,7 @@
 }
 
 .titre-livre {
-     font-family: var(--font-teko);
+  font-family: var(--font-teko);
   font-weight: 500;
   font-size: var(--text-l);
   line-height: 110%;
@@ -55,7 +55,7 @@
 }
 
 .auteur-livre {
-    font-family: var(--font-teko);
+  font-family: var(--font-teko);
   font-weight: 400;
   font-size: var(--text-m);
   line-height: 150%;

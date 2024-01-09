@@ -1,73 +1,68 @@
-.galerie-film {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.galerie-films {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+  overflow-x: auto;
+  white-space: nowrap;
 }
-.overlay {
-        /* Sit on top of the page content */
-        position: absolute;
-        /* Full width (cover the whole page) */
-        width: 100vw;
-        /* Full height (cover the whole page) */
-        height: 100vh;
-        /* Stay at the top */
-        top: 0;
-        /* Stay at the left */
-        left: 0;
-        /* Stay at the right */
-        right: 0;
-        /* Stay at the bottom */
-        bottom: 0;
-        /* Black background with opacity */
-        background-color: rgba(0, 0, 0, 0.9);
-        /* Add a pointer on hover */
-        cursor: pointer;
-        /* Use a grid for easy centering */
-        display: grid;
-        /* Center vertically and horizontally */
-        place-content: center;
-      }
-      .overlay::after {
-        /* Add content : "X" */
-        content: "X";
-        /* White text color */
-        color: #fff;
-        /* Black background color */
-        background-color: #000;
-        /* Font family "sans-serif" */
-        font-family: sans-serif;
-        /* Centered text */
-        text-align: center;
-        /* Line height ( idem height ) */
-        line-height: 2rem;
-        /* Display as a block */
-        display: block;
-        /* Position absolute */
-        position: absolute;
-        /* 1rem from the top */
-        top: 1rem;
-        /* 1rem from the right */
-        right: 1rem;
-        /* 2rem width */
-        width: 2rem;
-        /* 2rem height */
-        height: 2rem;
-        /* White border of 2px */
-        border: 2px solid #fff;
-        /* Rounded border */
-        border-radius: 50%;
-      }
-      .overlay > figure {
-        /* No margin */
-        margin: 0;
-        /* 1rem padding */
-        padding: 1rem;
-        /* White border of 2px */
-        border: 2px solid #fff;
-        background-color: #000;
-      }
-      .overlay > figure > img {
-        /* Max width 100% for responsive image */
-        max-width: 100%;
-        /* Height auto for keeping the ratio */
-        height: auto;
-      }
+
+.film {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--primary);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.film img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.film:hover {
+  transform: scale(1.06);
+}
+
+.date-film,
+.titre-film,
+.auteur-film {
+  font-family: var(--font-teko);
+  padding: 8px;
+  text-align: center;
+}
+
+.date-film {
+  font-weight: 500;
+  font-size: var(--text-l);
+  line-height: 110%;
+  color: var(--white);
+  text-align: center;
+  padding: 8px;
+}
+
+.titre-film {
+  font-family: var(--font-teko);
+  font-weight: 500;
+  font-size: var(--text-l);
+  line-height: 110%;
+  padding: 8px;
+  background-color: var(--secondary);
+  text-align: center;
+}
+.auteur-film {
+  font-family: var(--font-teko);
+  font-weight: 400;
+  font-size: var(--text-m);
+  line-height: 150%;
+  padding: 8px;
+  background-color: var(--secondary);
+  text-align: center;
+}

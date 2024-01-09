@@ -8,6 +8,8 @@
 .menu a {
   color: var(--white);
   text-decoration: none;
+  margin: -40px;
+  line-height: 140%;
 }
 
 .btn-fermer {
@@ -16,11 +18,14 @@
 }
 
 .langues {
-     display: flex;
+  display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .logo {
   display: flex;
   justify-content: center;
+  padding: 20px;
 }

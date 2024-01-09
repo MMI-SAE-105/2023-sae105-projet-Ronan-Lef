@@ -1,28 +1,29 @@
 .page-introduction {
-    text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .form-champ {
-    margin: 10px;
+  margin: 10px;
 }
 
-label, input {
-    width : 100%;
-    box-sizing: border-box;
+label,
+input {
+  width: 100%;
+  box-sizing: border-box;
 }
 
 form {
-    width: 334px;
-    height: 400px;
-    display: flex;
-    flex-shrink: 0;
-    flex-direction: column;
-    border-radius: 10px;
-    margin: 20px;
-    background-color: var(--secondary);
-    align-items: center;
+  width: 334px;
+  height: 400px;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: var(--secondary);
+  align-items: center;
 }
 
 label {
@@ -34,7 +35,6 @@ label {
   line-height: 160%;
   text-transform: uppercase;
   margin-left: -40px;
-  
 }
 
 input {
@@ -46,7 +46,6 @@ input {
   font-size: var(--text-s);
   line-height: 100%;
 }
-
 
 .envoyer-bouton {
   margin: 0 auto;

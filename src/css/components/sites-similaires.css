@@ -1,0 +1,14 @@
+.colonne {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.colonne a {
+  text-decoration: none;
+  color: var(--black);
+}

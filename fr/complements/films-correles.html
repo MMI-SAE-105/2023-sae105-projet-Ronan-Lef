@@ -22,16 +22,26 @@
       </div>
     </header>
 
-    <main>
+    <main x-data="{showImg:''}">
       <div class="galerie-films">
         <div class="film">
           <div class="date-film">1999</div>
           <img
             class="image-film"
             src="/public/movie/matrix.webp"
-            alt="Image film 1" />
+            alt="Image film 1"
+            @click="showImg='/public/movie/matrix.webp'" />
           <div class="titre-film">Matrix</div>
           <div class="auteur-film">Les Wachowski</div>
+          <div
+            x-show="showImg"
+            class="overlay"
+            @click="showImg=null"
+            @keyup.escape.window="showImg=null">
+            <figure>
+              <img :src="showImg" alt="image" />
+            </figure>
+          </div>
         </div>
 
         <div class="film">

@@ -45,3 +45,12 @@
   align-items: left;
   padding: 20px;
 }
+
+.trailer-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+  margin: 20px;
+}

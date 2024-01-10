@@ -8,6 +8,14 @@
   height: auto;
 }
 
+.titre_page q {
+ font-family: var(--font-teko);
+  font-weight: 600;
+  font-size: var(--text-xl);
+  line-height: 110%;
+  margin: 0;
+}
+
 .article-card {
   box-sizing: border-box;
   max-width: 1200px;

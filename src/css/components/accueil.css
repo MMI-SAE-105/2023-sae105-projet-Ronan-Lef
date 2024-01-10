@@ -3,6 +3,11 @@
   text-align: start;
 }
 
+.intro img {
+  width: 100%;
+  height: auto;
+}
+
 .article-card {
   box-sizing: border-box;
   max-width: 1200px;
